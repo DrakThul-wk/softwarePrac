@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the C++ syntax
+{
+	"font_face": "Courier New",
+	"font_size":12.0
+}

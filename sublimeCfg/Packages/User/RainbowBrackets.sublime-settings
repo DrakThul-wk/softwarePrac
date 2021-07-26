@@ -1,0 +1,34 @@
+// RainbowBrackets Preferences – User
+// ====================================================
+
+{
+    "debug": false,
+
+    "brackets": {
+        "pairs": {
+            "(": ")",
+            "[": "]",
+            "{": "}"
+        },
+
+        "filetypes": {
+            "default": {
+                "opening": ["(", "[", "{"],
+                "ignored_scopes": [
+                    "comment", "string"
+                ]
+            },          
+            "ts": {
+                "opening": ["(", "[", "{"],
+                "ignored_scopes": [
+                    "comment", "string"
+                ],
+                "extensions": [
+                    "ts"
+                ]
+            },
+        }
+    },
+}
+
+

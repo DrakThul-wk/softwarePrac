@@ -1,0 +1,16 @@
+{
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Monokai.tmTheme",
+	"font_face": "courier new",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"theme": "Boxy Monokai.sublime-theme",
+	"theme_accent_orange": true,
+	"theme_bar_margin_top_lg": true,
+	"theme_font_xl": true,
+	"theme_scrollbar_colored": true,
+	"theme_tab_selected_underlined": true,
+	"theme_unified": true,
+}
