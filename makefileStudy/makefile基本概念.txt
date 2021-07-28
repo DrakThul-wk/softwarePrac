@@ -1,0 +1,27 @@
+使用gcc对程序进行编译时过程比较繁琐，因为程序文件过多，操作起来比较麻烦；
+此时可以使用makefile进行编译，简化命令；
+
+当执行make时，make会在当前的目录下搜索makefile(Makefile)文本文件，而makefile中则
+记录源码如何编译的详细信息。make会自动判别源码是否有变动了而自动更新执行文件。
+
+
+先看下gcc的应用
+
+gcc hello.c
+
+ll hello.c a.exe（windows环境下？）
+默认情况下，如果直接以gcc编译源码，并且没有加上任何参数，会自动生成可执行文件
+
+gcc -c hello.c
+ll
+gcc -o hello hello.o
+
+hello这个可执行文件是一个二进制文件
+hello.o是一个目标文件，需要通过目标文件再生成可执行文件；
+意思就是对hello.c编译成目标文件hello.o
+
+编译与链接：
+书写两个文件thanks.c thanks2.c对应里面有函数
+使用-c进行文件编译，编译成.o目标文件
+使用-o进行文件链接，链接成可执行文件
+运行即可
