@@ -1,0 +1,11 @@
+链栈是采用链式结构存储栈，可以采用单链表、双链表、循环链表表示；
+可以带头节点或不带头节点；
+typedef struct linknode
+{
+    int data;
+    struct linknode *next;
+} LinkStack;
+
+规定链栈的所有操作都是在单链表的表头进行的。
+
+实际与链表是一样的。只不过多了一个只能在表头操作的限制。
