@@ -12,6 +12,7 @@ int bfAlg(char *txt, char *pat)
             j++;
         } else {
             i = i - j + 1;
+            j = 0;
         }
     }
     if (j == m) {

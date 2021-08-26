@@ -20,11 +20,10 @@ void GetBcTable(char *pat, int *bc)
 void GetMsTable(char *pat, int *ms)
 {
     int m = strlen(pat);
-    int i, j;
     ms[m - 1] = m;
     int upper, lower;
     lower = m - 1;
-    for (i = m - 2; i >= 0; i--) {
+    for (int i = m - 2; i >= 0; i--) {
         if (i > lower && ms[i + m - 1 - upper] < i - lower) {
             ms[i] = ms[i + m - 1 - upper];
         } else {
