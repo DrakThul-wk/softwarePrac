@@ -1,0 +1,9 @@
+check here:
+https://www.cnblogs.com/highway-9/p/5984285.html
+
+after install vimplus
+then we can download the tools by ourself and put them into plugged directory
+for You....completer we can install by the information, it is greate!
+and rainbow, ... , tools could also be put into plugged directory.
+
+the nerdtree need font, please be careful.
