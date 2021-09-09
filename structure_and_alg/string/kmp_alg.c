@@ -21,6 +21,8 @@ int kmp(char *txt, char *pat)
 {
     int m = strlen(pat);
     int n = strlen(txt);
+    int *next = (int *)malloc(sizeof(int) * m);
+    GetNext(pat, next);
     int i, j;
     i = 0;
     j = 0;
