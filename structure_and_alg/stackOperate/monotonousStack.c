@@ -1,5 +1,6 @@
 // 求一个元素的右侧的最近比它大的元素位置
 // 使用单调栈的方法求解
+// 相关介绍也可以参考这篇：https://blog.csdn.net/weixin_30596343/article/details/96498761?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.no_search_link
 #include "stdio.h"
 #define MAXS 64
 int main()
