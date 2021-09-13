@@ -6,19 +6,25 @@ type struct {
 
 /** initialize your data structure here */
 MinStack *minStackCreate() {
-    
+    MinStack *obj = (MinStack *)malloc(sizeof(MinStack));
+    obj->top = -1;
+    return obj;
 }
 
 void minStackPush(MinStack *obj, int x) {
-
+    obj->top++;
+    obj->val[obj->top] = x;
 }
 
 void minStackPop(MinStack *obj) {
-
+    obj->top--;
 }
 
 int minStackTop(MinStack *obj) {
-
+    if (obj->top >= 0) {
+        return obj->val[obj->top];
+    }
+    return -1;
 }
 
 int minStackGetMin(MinStack *obj) {
